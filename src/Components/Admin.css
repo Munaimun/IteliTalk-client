@@ -1,0 +1,113 @@
+/* Container for the admin dashboard */
+.admin-container {
+  display: flex;
+  /* color: white; */
+}
+
+.heading{
+  background-color: white;
+  margin-bottom: 10px;
+}
+.list{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+/* Side panel styles */
+.side-panel {
+  height:100vh;
+  width: 20%;
+  background-color: #fff;
+  padding: 20px;
+  border-right: 2px solid black;
+}
+
+/* Button styles */
+.button {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #141E46;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+}
+
+.button:hover{
+  background-color: black;
+}
+
+/* Main content area */
+.main-content {
+  flex-grow: 1; /* Fill the remaining width of the container */
+  padding: 20px;
+  background-color: #B2C6B6;
+  color: black;
+}
+
+/* User list table */
+.data-table {
+  background-color: white;
+  width: 100%;
+  border-collapse: collapse; /* Collapse table borders */
+  cursor: pointer;
+}
+
+.data-table th, .data-table td {
+  background-color: white;
+  border: 1px solid black; 
+  padding: 10px;
+  color: black;
+}
+
+.list{
+  background-color: white;
+}
+
+
+  /* RESPONSIVE */
+  @media screen and (max-width: 350px) {
+    .side-panel {
+      height:100vh;
+      width: 100px;
+      background-color: #fff;
+      padding: 20px;
+      border-right: 2px solid black;
+    }
+
+    .button {
+      width: 100%;
+      margin-bottom: 10px;
+      background-color: #141E46;
+      color: white;
+      font-size: 10px;
+      font-weight: 500;
+      padding: 8px;
+      border-radius: 5px;
+      text-align: center;
+      border: none;
+    }
+
+    /* User list table */
+.data-table{
+  /* background-color: white; */
+  width: 10px;
+  border-collapse: collapse; /* Collapse table borders */
+  cursor: pointer;
+}
+
+.data-table th, .data-table td {
+  width: 10px;
+  /* background-color: white; */
+  border: 1px solid black; 
+  padding: 10px;
+  color: black;
+}
+
+.list{
+  background-color: white;
+}
+  }

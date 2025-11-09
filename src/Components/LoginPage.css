@@ -1,0 +1,25 @@
+
+/* Responsive styles for very small screens */
+@media screen and (max-width: 400px) {
+    .form-chng {
+        width: 5px;
+        /* padding: 0.5rem; */
+    }
+    
+    .inputs {
+        padding: 0.5rem;
+    }
+    
+    input {
+        font-size: 0.875rem; 
+        color: red;
+    }
+
+    label {
+        font-size: 0.875rem;
+    }
+
+    .sub-button {
+        padding: 0.5rem;
+    }
+}
