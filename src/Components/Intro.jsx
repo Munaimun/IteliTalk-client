@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { Link, Outlet } from "react-router-dom";
-import { Button } from "../components/ui/button";
+import { Button } from "./ui/button";
 
 const Intro = () => {
   return (
