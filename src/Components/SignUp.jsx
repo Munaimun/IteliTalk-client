@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Button } from "./ui/button";
-import { Input } from "../components/ui/input";
+import { Input } from "./ui/input";
 import axiosApiInstance from "../interceptor";
 
 const API_URL = "api/v1";
