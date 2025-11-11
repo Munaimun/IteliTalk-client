@@ -2,7 +2,7 @@ import { LogOut, Menu, Settings, User, X } from "lucide-react";
 import PropTypes from "prop-types";
 import { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { Button } from "./ui/button";
 import {
   DropdownMenu,
