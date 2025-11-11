@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { LiaRobotSolid } from "react-icons/lia";
 import { SlUser } from "react-icons/sl";
-import { Button } from "../components/ui/button";
+import { Button } from "./ui/button";
 import { Input } from "../components/ui/input";
 import axiosApiInstance from "../interceptor";
 

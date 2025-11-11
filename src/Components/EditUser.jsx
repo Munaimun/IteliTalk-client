@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
-import { Button } from "../components/ui/button";
+import { Button } from "./ui/button";
 import { Input } from "../components/ui/input";
 
 const API_URL = "/api/v1";

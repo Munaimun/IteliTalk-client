@@ -17,7 +17,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Alert, AlertDescription } from "../components/ui/alert";
 import { Badge } from "../components/ui/badge";
-import { Button } from "../components/ui/button";
+import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader } from "../components/ui/card";
 import { Input } from "../components/ui/input";
 import { Label } from "../components/ui/label";
@@ -198,12 +198,12 @@ const AdminSignUp = () => {
     formData.dept;
 
   // Get password strength color
-  const getPasswordStrengthColor = () => {
-    if (passwordStrength <= 2) return "bg-red-500";
-    if (passwordStrength <= 3) return "bg-yellow-500";
-    if (passwordStrength <= 4) return "bg-blue-500";
-    return "bg-green-500";
-  };
+  // const getPasswordStrengthColor = () => {
+  //   if (passwordStrength <= 2) return "bg-red-500";
+  //   if (passwordStrength <= 3) return "bg-yellow-500";
+  //   if (passwordStrength <= 4) return "bg-blue-500";
+  //   return "bg-green-500";
+  // };
 
   const getPasswordStrengthText = () => {
     if (passwordStrength <= 2) return "Weak";

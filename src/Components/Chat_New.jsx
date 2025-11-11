@@ -3,7 +3,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { LiaRobotSolid } from "react-icons/lia";
 import { SlUser } from "react-icons/sl";
 import ReactMarkdown from "react-markdown";
-import { Button } from "../components/ui/button";
+import { Button } from "./ui/button";
 import { Input } from "../components/ui/input";
 
 const API_URL = "api/v1";

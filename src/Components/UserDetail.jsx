@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { FaEdit, FaTrashAlt } from "react-icons/fa";
 import { useNavigate, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
-import { Button } from "../components/ui/button";
+import { Button } from "./ui/button";
 
 const API_URL = "/api/v1";
 
