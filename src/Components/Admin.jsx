@@ -20,7 +20,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { Alert, AlertDescription, Button } from "./ui/alert";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { Badge } from "../components/ui/badge";
+import { Badge } from "./ui/badge";
 import {
   Card,
   CardContent,
