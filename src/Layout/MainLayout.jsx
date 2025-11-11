@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../Components/Navbar";
-import "./MainLayout.css"
+import "./Mainlayout.css"
 
 const MainLayout = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
