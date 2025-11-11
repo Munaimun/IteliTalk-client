@@ -26,23 +26,23 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
-} from "../components/ui/card";
+} from "./ui/card";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "../components/ui/dropdown-menu";
-import { Input } from "../components/ui/input";
+} from "./ui/dropdown-menu";
+import { Input } from "./ui/input";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "../components/ui/select";
-import { Separator } from "../components/ui/separator";
-import { Skeleton } from "../components/ui/skeleton";
+} from "./ui/select";
+import { Separator } from "./ui/separator";
+import { Skeleton } from "./ui/skeleton";
 import {
   Table,
   TableBody,
@@ -50,7 +50,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "../components/ui/table";
+} from "./ui/table";
 import axiosApiInstance from "../interceptor";
 
 const API_URL = "api/v1";
