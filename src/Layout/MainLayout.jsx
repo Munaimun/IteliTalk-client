@@ -24,7 +24,7 @@ const MainLayout = () => {
   }, []);
 
   return (
-    <div className="flex h-auto flex-col bg-[#0a0a0f] text-[#f1f0ff] text-sm">
+    <div className="flex flex-col bg-[#0a0a0f] text-[#f1f0ff] text-sm">
       <Navbar
         isAuthenticated={isAuthenticated}
         setIsAuthenticated={setIsAuthenticated}
