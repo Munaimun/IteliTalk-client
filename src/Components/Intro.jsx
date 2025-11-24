@@ -13,7 +13,7 @@ const Intro = () => {
 
   return (
     <Fragment>
-      <div className="w-full bg-[#0a0a0f] text-[#f1f0ff] min-h-screen overflow-hidden px-2 sm:px-4 md:px-6 py-4 mt-28">
+      <div className="w-full bg-[#0a0a0f] text-[#f1f0ff] min-h-screen overflow-hidden px-2 sm:px-4 md:px-6 py-4">
         <div className="w-full max-w-5xl mx-auto flex flex-col justify-start lg:justify-center items-center space-y-6 md:space-y-8 text-center">
           {/* Logo + Title */}
           <div className="flex flex-col items-center gap-2 sm:gap-3">
