@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../Components/Navbar";
-import "./Mainlayout.css"
+import "./Mainlayout.css";
 
 const MainLayout = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -24,7 +24,7 @@ const MainLayout = () => {
   }, []);
 
   return (
-    <div className="flex flex-col bg-[#0a0a0f] text-[#f1f0ff] text-sm">
+    <div className="flex flex-col h-screen bg-[#0A0A0F] text-[#f1f0ff] text-sm">
       <Navbar
         isAuthenticated={isAuthenticated}
         setIsAuthenticated={setIsAuthenticated}
@@ -33,10 +33,10 @@ const MainLayout = () => {
 
       {/* Main content */}
       <main
-        className={`flex-1 overflow-hidden`} // always hide scroll
+        className={`flex-1 overflow-hidden`} // This is critical for constraining the height
         style={{ WebkitOverflowScrolling: "touch" }}
       >
-        <div className="w-full max-w-6xl mx-auto p-2 sm:p-4 md:p-6">
+        <div className="w-full h-full max-w-6xl mx-auto p-2 sm:p-4 md:p-6">
           <Outlet />
         </div>
       </main>

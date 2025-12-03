@@ -122,7 +122,7 @@ const Navbar = ({
                 <Button
                   variant="ghost"
                   asChild
-                  className="text-white rounded hover:text-white hover:bg-[#1c1c27] hover:rounded-xl shadow"
+                  className="text-white hover:text-white bg-slate-600 rounded-xl hover:bg-[#1c1c27] hover:rounded-xl shadow"
                 >
                   <Link to="/login">Sign In</Link>
                 </Button>
