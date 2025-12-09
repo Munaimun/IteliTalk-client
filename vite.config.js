@@ -41,7 +41,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api/v1": {
-        target: "http://localhost:5001",
+        target: "https://intelitalk-server.onrender.com/",
         changeOrigin: true,
       },
     },
